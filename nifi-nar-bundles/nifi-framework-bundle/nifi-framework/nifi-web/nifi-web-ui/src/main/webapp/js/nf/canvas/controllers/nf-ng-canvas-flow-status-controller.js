@@ -84,6 +84,15 @@
             this.controllerSyncFailureCount = "-";
             this.statsLastRefreshed = "-";
 
+            this.reload = {
+                /**
+                * Reloads the status for the entire canvas (components and flow.)
+                */
+                toggleReload: function () {
+                    nfCanvasUtils.reload();
+                }
+            }
+
             /**
              * The search controller.
              */

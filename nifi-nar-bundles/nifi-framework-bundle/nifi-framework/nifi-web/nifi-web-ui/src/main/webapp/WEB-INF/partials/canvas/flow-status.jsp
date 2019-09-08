@@ -67,6 +67,7 @@
         <div id="canvas-loading-container" class="loading-container"></div>
     </div>
     <div layout="row" layout-align="end center">
+        <button id="refresh-button" ng-click="appCtrl.serviceProvider.headerCtrl.flowStatusCtrl.reload.toggleReload();"><i class="fa fa-refresh"></i></button>
         <div id="search-container">
             <button id="search-button" ng-click="appCtrl.serviceProvider.headerCtrl.flowStatusCtrl.search.toggleSearchField();"><i class="fa fa-search"></i></button>
             <input id="search-field" type="text" placeholder="Search"/>
